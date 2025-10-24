@@ -1,5 +1,9 @@
 from django.contrib import admin
-from .models import Curso,Aluno,Professor
+
+from cursos.models import Curso
+from professor.models import Professor
+from alunos.models import Aluno
+
 # Register your models here.
 @admin.register(Curso)
 class CursoAdmin(admin.ModelAdmin):
