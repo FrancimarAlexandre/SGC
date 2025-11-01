@@ -1,0 +1,149 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema - Gestão de Cursos</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <span>GestãoCursos</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Recursos</a>
+                <a href="#testimonials">Depoimentos</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="#" class="btn btn-login">Login</a>
+                <a href="#" class="btn btn-register">Cadastrar</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Gestão de Cursos Simplificada</h1>
+            <p>Uma plataforma completa para gerenciar seus cursos, alunos e conteúdos de forma eficiente e intuitiva.</p>
+            <a href="#" class="btn-hero">Comece Agora</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Recursos Principais</h2>
+                <p>Descubra como nossa plataforma pode transformar a gestão dos seus cursos</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Gestão de Cursos</h3>
+                    <p>Crie, edite e organize seus cursos de forma intuitiva com nossa interface amigável.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Controle de Alunos</h3>
+                    <p>Gerencie matrículas, acompanhe o progresso e mantenha contato com seus alunos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Relatórios Detalhados</h3>
+                    <p>Acesse análises e relatórios para tomar decisões baseadas em dados reais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Que Nossos Usuários Dizem</h2>
+                <p>Confira experiências reais de quem já utiliza nossa plataforma</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Desde que comecei a usar o GestãoCursos, minha produtividade aumentou significativamente. A interface é intuitiva e as funcionalidades são exatamente o que eu precisava."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div class="author-info">
+                            <h4>Maria Costa</h4>
+                            <p>Coordenadora de Cursos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"A plataforma facilitou muito o acompanhamento dos meus alunos. Os relatórios me ajudam a identificar rapidamente quem precisa de mais atenção."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">PS</div>
+                        <div class="author-info">
+                            <h4>Pedro Silva</h4>
+                            <p>Instrutor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Implementamos o sistema em nossa instituição e os resultados foram imediatos. A equipe se adaptou rapidamente e os processos ficaram muito mais organizados."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AF</div>
+                        <div class="author-info">
+                            <h4>Ana Ferreira</h4>
+                            <p>Diretora Educacional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GestãoCursos</h3>
+                    <p>Sua plataforma completa para gestão educacional, oferecendo soluções inovadoras para instituições de ensino.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#testimonials">Depoimentos</a></li>
+                        <li><a href="#">Preços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Suporte</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <ul class="footer-links">
+                        <li>Email: contato@gestaocursos.com</li>
+                        <li>Telefone: (11) 1234-5678</li>
+                        <li>Endereço: Rua Exemplo, 123 - São Paulo, SP</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GestãoCursos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
