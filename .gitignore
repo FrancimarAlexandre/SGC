@@ -11,3 +11,60 @@ __pycache__/
 */__pycache__/
 *.py[cod]
 *$py.class
+
+# Arquivos de log
+*.log
+
+# Arquivos compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações locais do Django
+local_settings.py
+
+# Diretórios temporários
+tmp/
+temp/
+*.tmp
+
+# Arquivos de migração que ainda não devem ser versionados (opcional)
+# migrations/
+# */migrations/
+
+# Arquivos estáticos e de mídia gerados
+/staticfiles/
+media/
+static/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cobertura de testes e relatórios
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.log
+
+# Pipenv, Poetry e outros gerenciadores
+Pipfile.lock
+poetry.lock
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
