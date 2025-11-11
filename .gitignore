@@ -1,3 +1,13 @@
-venv
-.env
+# Ambiente virtual
+venv/
+.env/
+*.env
+
+# Banco de dados SQLite (local)
 db.sqlite3
+
+# Cache do Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
